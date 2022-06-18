@@ -1,0 +1,8 @@
+.text_area {
+  align-self: center;
+}
+
+textarea {
+  resize: none;
+  padding: 1em;
+}

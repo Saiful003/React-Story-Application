@@ -1,0 +1,34 @@
+.preview__wrapper {
+  border: 1px solid #ddd;
+  align-self: center;
+  border-radius: 5px;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  word-break: break-all;
+}
+.textValue {
+  margin: 0;
+  text-transform: unset;
+  color: #fff;
+}
+.previewImg {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.text_container {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
